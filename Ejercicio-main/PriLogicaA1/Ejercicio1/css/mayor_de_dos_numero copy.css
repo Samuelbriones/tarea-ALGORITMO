@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(rgba(212, 221, 245, 0.774),rgba(117, 10, 240, 0.205)),
+    url(https://media.istockphoto.com/vectors/math-linear-mathematics-education-circle-background-with-geometrical-vector-id611195980?k=20&m=611195980&s=612x612&w=0&h=FraE-PCDYLSkvU28NqwK53dByIHzkvRqbAojHEeJs4I=);
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 10px;
+    background-attachment: fixed;
+    background-size: 120%;
+    margin: 0%;
+    animation: fanimado 50s infinite;
+}
+.borde{
+    background-color: rgba(255, 255, 255, 0.589);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 2, 2);
+    font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.separar{
+    display: inline-block;
+    margin: 00.2cm;
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

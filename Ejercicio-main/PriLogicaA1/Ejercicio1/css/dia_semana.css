@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(rgba(194, 208, 240, 0.877),rgba(4, 2, 29, 0.123)),
+    url(https://cdn.pixabay.com/photo/2020/04/20/05/31/week-5066440_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 10px;
+    background-attachment: fixed;
+    background-size: 130%;
+    margin: 0%;
+    animation: fanimado 50s infinite;
+}
+.borde{
+    background-color: rgba(255, 255, 255, 0.575);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color: rgb(5, 5, 5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1{
+    color: rgb(3, 3, 3);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.separar{
+    margin: 0.2cm;
+    display:inline-block;
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

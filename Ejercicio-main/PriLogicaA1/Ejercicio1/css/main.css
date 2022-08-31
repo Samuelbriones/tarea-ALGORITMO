@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(rgba(163, 178, 212, 0.75),rgba(10, 57, 168, 0.75)),
+    url(https://previews.123rf.com/images/peshkov/peshkov1710/peshkov171000003/87331457-tel%C3%B3n-de-fondo-digital-abstracto-con-c%C3%B3digo-binario-software-y-concepto-de-programaci%C3%B3n-representaci.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 10px;
+    background-attachment: fixed;
+    background-size: 150%;
+    margin: 0%;
+    animation: fanimado 30s infinite;
+    
+}
+.capa{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #509fc9,#e83b59);
+    opacity: 0.5;
+    background-position: center center ;
+}
+
+div{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:rgb(7, 7, 7);
+    font-size: 65px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.opcion{
+    display: block;
+    text-align: center;
+    width:350px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color:rgb(8, 8, 8);
+    text-decoration: none;
+    font-weight: bold;
+    cursor:pointer ;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right top, #1012b3, #271cbe, #3726ca, #4430d5, #5139e1, #3459f0, #1172f9, #0089ff, #00acff, #00caff, #00e4fe, #5ffbf1);
+}
+.opcion:hover{
+    background-image: linear-gradient(to right top, #19b39c, #00b0b1, #00acc3, #00a6d1, #009fd9, #00a5e1, #00aae8, #00b0f0, #00c5f5, #00d7e7, #00e7c8, #07f39d);
+}
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

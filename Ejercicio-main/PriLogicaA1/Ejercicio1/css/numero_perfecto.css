@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(rgba(212, 221, 245, 0.301),rgba(117, 10, 240, 0.39)),
+    url(https://previews.123rf.com/images/iunewind/iunewind1403/iunewind140300096/26559246-n%C3%BAmeros-negros-de-fondo-con-copia-espacio.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 10px;
+    background-attachment: fixed;
+    background-size: 120%;
+    margin: 0%;
+    animation: fanimado 50s infinite;
+}
+.borde{
+    background-color: rgba(255, 255, 255, 0.521);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 5, 5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+    color: rgb(3, 3, 3);
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.separar{
+    margin: 0.2cm;
+    display:inline-block;
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
